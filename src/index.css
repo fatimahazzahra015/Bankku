@@ -1,0 +1,36 @@
+/* Tambahkan Lato ke dalam daftar impor Google Fonts Anda */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lato:wght@400;700&family=Montserrat:wght@800&display=swap');
+
+.font-lato {
+  font-family: 'Lato', sans-serif;
+}
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-mont {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
